@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: #121212;
     font-family: 'Didot', serif;
 }
 
@@ -16,7 +16,7 @@ main {
 }
 
 section {
-    background-color: #121212;
+    background-color: #000000;
     color: white;
     padding: 20px;
     margin: 10px;
