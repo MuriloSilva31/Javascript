@@ -1,1 +1,36 @@
+/* Define a cor de fundo da página */
+body {
+    background-color: #f0f8ff; /* Azul claro */
+    font-family: 'Arial', sans-serif; /* Fonte Arial */
+    color: #333; /* Cor da fonte: cinza escuro */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #4682b4; /* Azul aço */
+    color: #fff; /* Cor da fonte: branco */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estiliza as seções de conteúdo */
+section {
+    background-color: #ffffff; /* Branco */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #4682b4; /* Azul aço */
+    color: #fff; /* Cor da fonte: branco */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
