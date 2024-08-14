@@ -1,31 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Play:wght@400;700&display=swap');
 body {
-    background-color: #121212;
-    font-family: 'Didot', serif;
-}
-
-header, footer {
+    background-color: #5C4033;
+    font-size: 16pt;
     text-align: center;
-    color: white;
+    font-family: 'Octavio Pardo';
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+header {
+    color: white;
+    text-shadow: 2px 2px 3px #EBC79E;
 }
 
 section {
-    background-color: #000000;
-    color: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 15px;
+    background-color: #97694F;
     width: 300px;
-    text-align: center;
-    box-shadow: 0 4px 8px, white;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #EBC79E;
+    padding: 20px; 
 }
 
-header, p, h1, h2, h3, h4, h5, h6 {
-    text-shadow: 2px 2px 4px, white;
+img {
+    width: 100%;
+    max-width: 100px; 
+    border-radius: 20%;
+    box-sizing: border-box; 
+}
+
+footer {
+    color: white;
+    text-shadow: 2px 2px 3px #EBC79E;
 }
