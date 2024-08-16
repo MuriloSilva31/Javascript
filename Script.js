@@ -1,4 +1,4 @@
-window.alert("Opa Jairão, bão?");
+window.alert("Seja bem-vindo(a)");
 var msg = window.document.getElementById('msg');
 var img = window.document.getElementById('foto');
 var data = new Date();
