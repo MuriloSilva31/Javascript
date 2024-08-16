@@ -5,7 +5,7 @@ var data = new Date();
 var hora = data.getHours();
 
 if (hora >= 7 && hora < 12) {
-    img.src = 'imagem bom dia.jpg';
+    img.src = '20240708_124514.jpg';
     msg.innerHTML = 'Bom dia!';
 } else if (hora >= 12 && hora < 18) {
     img.src = 'boa tarde.jpg';
