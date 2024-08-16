@@ -1,16 +1,16 @@
-Function carregar(){
-var msg = window.document .getElementById('msg')
-var img =window.document.getElementById (' imagem')
-var data = new Date() //pega a data atual
-var hora -data.getHours ()//pega a hora da data atual
-msg.innerHTML = Agora sao ${hora} horas.
-if (hora >=0 && hora < 12){
-//Bom dia
-img.src = 'manha.jpeg'
-} else if (hora >=12 && hora <18){
-1/Boa tarde
-img.srC = 'tarde.jpeg'
-}else {
-//Boa noite
-img. srC = 'noite. j peg"
+window.alert("Opa Jairão, bão?");
+var msg = window.document.getElementById('msg');
+var img = window.document.getElementById('foto');
+var data = new Date();
+var hora = data.getHours();
+
+if (hora >= 7 && hora < 12) {
+    img.src = 'imagem bom dia.jpg';
+    msg.innerHTML = 'Bom dia!';
+} else if (hora >= 12 && hora < 18) {
+    img.src = 'boa tarde.jpg';
+    msg.innerHTML = 'Boa tarde!';
+} else {
+    img.src = 'imagem boa noite.jpeg';
+    msg.innerHTML = 'Boa noite!';
 }
